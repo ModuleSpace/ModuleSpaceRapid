@@ -12,7 +12,6 @@
     "Backend",
     "ModuleSpace"
   ],
-  "author": "Arman Behravan",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.20.2",

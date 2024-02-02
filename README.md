@@ -8,7 +8,7 @@ ModuleSpaceRapid is a Template for creating scalable ExpressJs Backends.
 
 # History
 
-This is a fragment of what was built to be the backend of our website - ModuleSpace, however, we decided that we'd go another route but didn't want to abandon our backend structure in case we can help someone out with creating a simple backend application, so we removed all our own Code and published it as a Template on GitHub.
+This is a fragment of what was built to be the backend of our website - module-space.de, however, we decided that we'd go another route but didn't want to abandon our backend structure in case we can help someone out with creating a simple backend application, so we removed all our own Code and published it as a Template on GitHub.
 
 # How to add Routes
 

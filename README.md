@@ -4,7 +4,7 @@ Welcome to the official ModuleSpacerapid repository on GitHub!
 
 # What is ModuleSpaceRapid
 
-ModuleSpaceRapid is a template for creating scalable ExpressJs backends.
+ModuleSpaceRapid is a template for creating simple ExpressJs backends.
 
 # History
 
@@ -53,7 +53,7 @@ app.use('/', myRouter);
 Dev:
 - Start dev with ```npm run dev```
 
-This will automatically detect Changes in your Code and restart the Server in case of a Change.
+Note that the server will automatically restart on code changes.
 
 Build:
 - Build the project: ```npm run build``` 

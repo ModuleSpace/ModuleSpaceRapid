@@ -1,18 +1,18 @@
 # ModuleSpaceRapid
 
-Welcome to the official ModuleSpacerapid Repository on GitHub!
+Welcome to the official ModuleSpacerapid repository on GitHub!
 
 # What is ModuleSpaceRapid
 
-ModuleSpaceRapid is a Template for creating scalable ExpressJs Backends.
+ModuleSpaceRapid is a template for creating scalable ExpressJs backends.
 
 # History
 
-This is a fragment of what was built to be the backend of our website - module-space.de, however, we decided that we'd go another route but didn't want to abandon our backend structure in case we can help someone out with creating a simple backend application, so we removed all our own Code and published it as a Template on GitHub.
+This is a fragment of what was built to be the backend of our website - module-space.de, however, we decided that we'd go another route but didn't want to abandon our backend structure in case we can help someone out with creating a simple backend application, so we removed all our own code and published it as a template on GitHub.
 
 # How to add Routes
 
-- To add a Route, simply create a new file in the ```src/routes``` Folder and call it ```{YOUR_ROUTE_NAME}.ts```
+- To add a Route, simply create a new file in the ```src/routes``` folder and call it ```{YOUR_ROUTE_NAME}.ts```
 
 - Start editing the file and make sure to create a router object:
 ```
@@ -22,7 +22,7 @@ import { makeRoute } from "../transform/route";
 const router: Router = Router();
 const route: string = makeRoute(__filename);
 ```
-- Add the Functionality, for Example:
+- Add functionality:
 ```
 router.get(route, (req, res) => {
     res.status(200).send("OK");
@@ -35,29 +35,29 @@ router.get(route, (req, res) => {
 export default router;
 ```
 
-- And then import the Route in index.ts, the Main file of the Projekt:
+- Then import the route in index.ts, the main file of the project:
 
 ```
 import myRouter from './routes/myroute';
 ```
 
-- Add your new Route:
+- add your new route:
 
 ```
 app.use('/', myRouter);
 
 ```
 
-# How to Start
+# Usage
 
 Dev:
-- Start the Dev-Mode with ```npm run dev```
+- Start dev with ```npm run dev```
 
 This will automatically detect Changes in your Code and restart the Server in case of a Change.
 
 Build:
-- Build the Project and compile to TypeScript: ```npm run build``` 
-- Run the compiled Code: ```npm run start```
+- Build the project: ```npm run build``` 
+- Run compiled code: ```npm run start```
 
 # License
 

@@ -45,7 +45,6 @@ import myRouter from './routes/myroute';
 
 ```
 app.use('/', myRouter);
-
 ```
 
 # Usage

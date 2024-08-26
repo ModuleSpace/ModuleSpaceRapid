@@ -1,6 +1,6 @@
 # ModuleSpaceRapid
 
-Welcome to the official ModuleSpacerapid repository on GitHub!
+Welcome to the official ModuleSpace Rapid repository on GitHub!
 
 # What is ModuleSpaceRapid
 

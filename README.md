@@ -1,5 +1,5 @@
 > [!IMPORTANT]  
-> ModuleSpace was a temporary student-run company created as part of a project seminar at our high school. This seminar is designed to give students practical experience in business and project management. The company does not exist anymore, however this repository will continue to be available
+> ModuleSpace was a temporary student-run company created as part of a project seminar at our high school. This seminar is designed to give students practical experience in business and project management. The company does not exist anymore. However, this repository will continue to be available
 
 
 # ModuleSpaceRapid
